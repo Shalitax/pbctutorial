@@ -4,14 +4,15 @@
 
 1. Ingresa a tu consola linux
 
-2. Ejecuta los siguientes comandos para instalar proxmox backup client.
+2. Añade el repositorio de proxmox.
 
 ```bash
 sudo wget https://enterprise.proxmox.com/debian/proxmox-release-bullseye.gpg -O /etc/apt/trusted.gpg.d/proxmox-release-bullseye.gpg
-
+```
+3. Crea el archivo pbs-client.list
+```bash
 sudo nano /etc/apt/sources.list.d/pbs-client.list
 ```
-
 3. Inserta la siguiente línea dentro del archivo `pbs-client.list` que se ha abierto:
 
 ```
