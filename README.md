@@ -2,7 +2,7 @@
 
 ### Descargar Proxmox Backup Client
 
-1. Abre una terminal en tu sistema.
+1. Ingresa a tu consola linux
 
 2. Ejecuta los siguientes comandos uno por uno para descargar e instalar el cliente de respaldo de Proxmox:
 
