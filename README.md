@@ -4,7 +4,7 @@
 
 1. Ingresa a tu consola linux
 
-2. Ejecuta los siguientes comandos uno por uno para descargar e instalar el cliente de respaldo de Proxmox:
+2. Ejecuta los siguientes comandos uno por uno para descargar e instalar proxmox backup client.
 
 ```bash
 sudo wget https://enterprise.proxmox.com/debian/proxmox-release-bullseye.gpg -O /etc/apt/trusted.gpg.d/proxmox-release-bullseye.gpg
