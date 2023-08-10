@@ -48,7 +48,7 @@ Ejemplo:
 
 ```bash
 export PBS_PASSWORD=contraseña123
-proxmox-backup-client backup volumes.pxar:/var/lib/pterodactyl/volumes --repository storage.microservers.cl:MICRO-MIAMI
+proxmox-backup-client backup volumes.pxar:/var/lib/pterodactyl/volumes --repository 127.0.0.1:MICRO-MIAMI
 ```
 En este ejemplo la ruta al respaldar seria **/var/lib/pterodactyl/volumes**  y seria enviada al datastore **MICRO-MIAMI**
 
