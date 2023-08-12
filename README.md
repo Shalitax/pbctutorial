@@ -40,6 +40,8 @@ nano respaldo.sh
 2. Inserta el siguiente contenido en el archivo, reemplazando `CONTRASEÑA DE PROXMOX BACKUP SERVER` con la contraseña de tu servidor proxmox backup server.
 
 ```bash
+#!/bin/bash
+
 export PBS_PASSWORD=CONTRASEÑA DE PROXMOX BACKUP SERVER
 proxmox-backup-client backup volumes.pxar:/ejemplo/ruta --repository IP:DATASTORE
 ```
