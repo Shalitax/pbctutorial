@@ -69,7 +69,7 @@ crontab -e
 5. Inserta la siguiente línea en el archivo cron para programar la tarea para que se ejecute a la 1:00 AM todos los días:
 
 ```
-0 1 * * * /ruta/a/mi_script.sh
+0 1 * * * sh /ruta/a/mi_script.sh
 ```
 
 6. Guarda el archivo y cierra el editor.
